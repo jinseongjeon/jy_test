@@ -1,0 +1,314 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+html,
+body{
+    font-size: 62.5%;
+    color: #ffffff;
+    scroll-behavior: smooth;
+    letter-spacing: -0.1rem;
+    font-family: 'SpoqaHanSansNeo-Medium';
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    overflow-y: visible;
+    font-family: "nanumsquare";
+    font-weight:300;
+    word-break: keep-all;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.background01{
+    background-image: url("../images/background01.png");
+    width: 100vw;
+    height: 309.5rem;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:0;
+}
+.box{
+    position: sticky;
+    top:0px;
+    width: 100vw;
+    height: 100vh;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 20rem;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome img:first-child{
+    width: 20.5rem;
+    height: auto;
+}
+.welcome img:last-child{
+    width: 74.8rem;
+    height: auto;
+    margin-top: 2rem;
+}
+.arrowdown{
+    width: 5rem;
+    height: 3.2rem;
+    margin: 0 auto;
+}
+.empty{
+    width: 100vw;
+    height: 294.9rem;
+}
+.background02{
+    background-image: url("../images/background02.png");
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+.background02-shadow{
+    background-image: url("../images/background02-shadow.png");
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-position:left;
+    padding: 0 20rem;
+    padding-bottom: 20rem;
+    padding-top: 40rem;
+}
+.mozip-box{
+    display: flex;
+    justify-content: flex-start;
+}
+.mozip{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    font-size: 3.8rem;
+    width: 64rem;
+}
+.mozip-title span{
+    font-weight: 700;
+}
+.mozip-text{
+    margin-top: 4rem;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.mozip-line{
+    width: 100%;
+    border-top: 1px solid #ffffff;
+    margin: 8rem 0;
+}
+.mozip-detail{
+    display: flex;
+    justify-content:space-around;
+}
+.mozip-detail-01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mozip-detail-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.mozip-detail-text{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+}
+.mozip-detail-text p{
+    margin-bottom: 2rem;
+}
+.mozip-link-btn{
+    width: 100%;
+    height: 6rem;
+    border-radius: 4rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 6rem;
+    text-align: center;
+    background-color: #DB4954;
+    margin-top: 8rem;
+}
+.background03{
+    background-image: url("../images/background03.png");
+    background-color: #21409A;
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 42rem 20rem;
+}
+.soge-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.soge01{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+.soge01 p{
+    text-align: right;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    margin-top: 3rem;
+}
+.soge01 p:nth-child(2){
+    font-weight: 700;
+    font-size: 5.6rem;
+    line-height: 8rem;
+    margin-top: 5rem;
+}
+.soge-left{
+    margin-top: 16rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.soge02{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+.soge02 p{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    margin-top: 3rem;
+}
+.soge02 p:nth-child(2){
+    font-weight: 700;
+    font-size: 5.6rem;
+    line-height: 8rem;
+    margin-top: 5rem;
+}
+.background04{
+    background-color: #ffffff;
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+.background04-box{
+    padding: 0 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.member{
+    display: flex;
+    justify-content: space-between;
+}
+.member-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16rem;
+    color: #6D6E71;
+    width: auto;
+}
+.member-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.member-name p{
+    margin-top: 1.2rem;
+}
+.member-name p:last-child{
+    font-size: 2rem;
+    margin-top: 0.8rem;
+}
+.member-intro{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2.8rem;
+    margin-top: 2.8rem;
+    margin-bottom: 3.2rem;
+    width: 28rem;
+    height: auto;
+}
+.member-icon a img{
+    width: 3.6rem;
+    height: 3.6rem;
+}
+.member-icon a:first-child{
+    margin-right: 2.8rem;
+}
+.new-member{
+    width: 80%;
+}
+.new-member-btn{
+    width: 100%;
+    height: 4.4rem;
+    border-radius: 4rem;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 4.4rem;
+    background-color: #FF675F
+}
+.footer{
+    padding: 0 20rem;
+    padding-bottom: 8rem;
+}
+.footer-line{
+    width: 100%;
+    border-top: 1px solid #6D6E71;
+    margin-bottom: 8rem;
+    margin-top: 24rem;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6D6E71;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.footer-info p{
+    margin-bottom: 1.2rem;
+}
+.footer-info p a{
+    color: #FF675F;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 960px) {
+    html,body{
+        font-size: 31.25%
+    }
+    .member-icon a img{
+        width: 7.2rem;
+        height: 7.2rem;
+    }
+    .member{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .member-icon{
+        margin-bottom: 0;
+    }
+    .new-member-btn{
+        width: 100%;
+        height: 8.8rem;
+        border-radius: 8rem;
+        font-size: 4rem;
+        font-weight: 400;
+        text-align: center;
+        line-height: 8.8rem;
+        background-color: #FF675F
+    }
+}
